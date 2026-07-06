@@ -138,8 +138,13 @@
   .hero-tag{
     font-family:var(--mono); font-size:13px; color:var(--blue);
     margin-bottom:20px; display:inline-block;
+    background:var(--blue); color:var(--bg); padding:4px 12px; border-radius:999px;
+    width: fit-content; transform:rotate(-1deg);
   }
-
+ .hero-tag:hover{ 
+    background:var(--pink); color:var(--bg);
+    transform: scale(1.05) rotate(-1deg);
+}
   .wobble-name{
     font-family:var(--display);
     font-weight:700;
@@ -383,7 +388,7 @@
 <div class="wrap">
 
   <section class="hero" id="hero">
-    <span class="hero-tag">// frontend developer, munich</span>
+    <span class="hero-tag"> frontend developer, munich</span>
     <h1 class="wobble-name" id="wobbleName" aria-label="Zakaria Merghmi"></h1>
     <div class="hero-role">Werkstudent @ Lauterbach GmbH — Nuxt.js · TypeScript · Vue &amp; React</div>
     <p class="hero-pitch">I build fast, multilingual, production interfaces — currently maintaining a company website in Nuxt.js at Lauterbach GmbH, while studying Computer Science in Munich.</p>
@@ -409,7 +414,7 @@
         <p>Before this, I freelanced building modern web apps with <strong>React</strong>, <strong>Next.js</strong> and <strong>Firebase</strong>, did 1st-level IT support, and competed in interdisciplinary hackathons back in Algeria with <strong>ByteCraft</strong>, the science club at ESTIN.</p>
       </div>
       <div class="lang-card reveal from-right">
-        <div class="card-head">// languages</div>
+        <div class="card-head">languages</div>
         <div class="lang-row"><span>German</span><span class="lvl">DSH-2 · fluent</span></div>
         <div class="lang-row"><span>French</span><span class="lvl">fluent</span></div>
         <div class="lang-row"><span>English</span><span class="lvl">fluent</span></div>
@@ -536,7 +541,6 @@
       <p>Open to Werkstudent, internship and fullstack opportunities in and around Munich — or just a good conversation about frontend architecture.</p>
       <div class="contact-links">
         <a class="btn btn-primary" href="mailto:merghmizakaria@gmail.com">merghmizakaria@gmail.com</a>
-        <a class="btn btn-ghost" href="tel:+491636171395">+49 1636171395</a>
         <a class="btn btn-ghost" href="https://github.com/ZakariaMerghmi" target="_blank" rel="noopener">GitHub ↗</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/zakaria-merghmi/" target="_blank" rel="noopener">LinkedIn ↗</a>
       </div>
